@@ -1,0 +1,13 @@
+#mydiv{
+    width: 150px;
+    height: 150px;
+    border:10px solid coral ;
+    border-radius: 25px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    /* text-align: center; */
+    padding: 30px;
+    margin: 50px;
+
+
+}

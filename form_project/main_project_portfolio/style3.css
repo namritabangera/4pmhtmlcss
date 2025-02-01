@@ -1,0 +1,66 @@
+/* Default Dark Mode */
+body {
+    background: #111;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+/* Light Mode Styles */
+body:has(#theme-toggle:checked) {
+    background: #f5f5f5;
+    color: #222;
+}
+
+/* Navbar Light Mode */
+body:has(#theme-toggle:checked) header {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+body:has(#theme-toggle:checked) nav ul li a {
+    color: #222;
+}
+
+body:has(#theme-toggle:checked) .logo span {
+    color: #ff6600;
+}
+
+/* Hero Section Light Mode */
+body:has(#theme-toggle:checked) .hero {
+    background: url("https://source.unsplash.com/1600x900/?nature") no-repeat center;
+    background-size: cover;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    display: none;
+}
+
+/* Toggle Switch */
+.toggle-label {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 25px;
+    background: #444;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.toggle-label i {
+    color: #ffcc00;
+    font-size: 1.2rem;
+}
+
+body:has(#theme-toggle:checked) .toggle-label {
+    background: #ddd;
+}
+
+body:has(#theme-toggle:checked) .toggle-label i {
+    color: #ff6600;
+}

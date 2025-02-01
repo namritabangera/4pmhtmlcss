@@ -1,0 +1,54 @@
+body{
+    /* background: #12c2e9;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ */
+background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+img {
+    width: 245px;
+    height: 200px;
+    padding:0;
+    border-radius: 20px 20px 0 0;
+
+    
+}
+
+.maindiv{
+    border: 1px solid gray;
+    width: 920px;
+    height:500px;
+   padding:0;
+    margin:60px 215px;
+    font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.75em;
+
+    /* display: flex; */
+    
+    
+}
+.boxes{
+    
+    height:450px;
+    width: 245px;
+    border: 1px solid gainsboro;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 0px;
+    margin:30px;
+    
+}
+.box1{
+    box-sizing: border-box;
+    float: left;
+}
+.box2{
+    box-sizing: border-box;
+    float:left;
+}
+.box3{
+    box-sizing: border-box;
+    float:left;
+}

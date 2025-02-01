@@ -1,0 +1,30 @@
+/* .box{
+    height:100px;
+    width: 100px;
+    background-color: red;
+    transition: all 5s ease-in-out;
+}
+
+.box:hover{
+    height:200px;
+    width: 200px;
+    
+} */
+
+img{
+    height: 300px;
+    width: 200px;
+    /* transition: all 5s ease;  */
+    /* filter: grayscale(); */
+    
+}
+img:hover{
+/* height: 200px;
+width: 200px; */
+/* transform: scale(0.2); */
+ /* transform: rotate(60deg);  */
+ /* transform: translatey(100px);  */
+ /* filter: none; */
+ clip-path: circle(30%);
+  transition: all 2x  s ease; 
+}

@@ -1,0 +1,90 @@
+/* #box{
+    margin:100px 250px;
+    height:60vh;
+    width:70vw;
+    border: 2px solid blue;
+}
+.balls{
+    height:50px;
+    width:50px;
+    border: 2px solid red;
+    background-color: red;
+    color:white;
+    border-radius:50px;
+    box-sizing: border-box;
+    padding:15px;
+
+}
+
+.ball1{
+    position:absolute
+    top:0;
+    right:0;
+}
+
+.ball2{
+    position: absolute;
+    top:101px;
+    left:85%;
+    right:0;
+}
+.ball3{
+    position:relative;
+    top:25%;
+    left:50%;
+}
+.ball4{
+position: relative;
+top:60%
+}
+
+.ball5{
+position: absolute;
+top:68%;
+left:85%;
+right:0;
+}
+
+.ball6{
+    position: fixed;
+    top: 0px;
+    left:95%;
+    right:0;   
+} */
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.balls{
+   height: 100px;
+   width: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+       position: absolute;
+   border: 1px solid red; 
+   background-color: red; 
+   font-size: 28px;
+   color: white;
+   border-radius: 50%;
+}
+.ball1{
+ top: 0;
+ left: 0;
+}
+.ball2{
+  top: 0;
+  right: 0;
+}
+.ball4{
+ bottom: 0;
+ left: 0;
+}
+.ball5{
+    bottom: 0;
+    right: 0;
+}

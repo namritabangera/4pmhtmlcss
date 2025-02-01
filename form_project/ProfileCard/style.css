@@ -1,0 +1,69 @@
+body{
+
+height:100vh;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); 
+  background-attachment: fixed; 
+
+}
+#profile_img{
+  height: 200px;
+  border-radius: 30px;
+  padding-top:0px;
+  margin-top: 10px;
+}
+
+#mydiv{
+    width: 23%;
+    height: 63%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 2px 3px red;
+
+    margin:10% 35%;
+   
+
+   
+}
+h2{
+  font-size: 1.25em;
+  font-weight: 600;
+  color:#555;
+  line-height: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 0;
+   margin-top: 5px;
+}
+h4{
+  margin:0;
+  font-size: 0.75em;
+  font-weight: 600;
+  opacity: 0.5; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.follow{
+  background-color: #C850C0;
+color:#fff;
+font-weight: 500;
+padding: 10px 20px;
+font-size: 1em;
+border-radius: 10px;
+text-decoration: none;
+
+}
+
+.fb{
+  
+  padding: 10px;
+width:40px;
+height:40px;
+
+}
+#buttons1{
+  margin:0 !important;
+}

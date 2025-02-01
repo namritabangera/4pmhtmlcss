@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+#parent{
+    /* height: 80vh; */
+    max-height: 100%;
+    background-image: linear-gradient(yellow brown gold);
+    max-width: 100%;
+    object-fit: cover;
+    /* width: 60vw; */
+    border: 25px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+}
+
+img{
+    width:15vw;
+    height:20vh;
+    border: 2px solid green;
+}
+
+.child{
+    /* gap:5px; */
+    overflow: hidden;
+}

@@ -1,0 +1,27 @@
+h1{
+    margin:100px 400px;
+    text-decoration: underline;
+}
+.container{
+    border: 1px solid darkblue;
+    width: 100vh;
+    height: 75vh;
+    border-radius: 25px;
+    margin:50px 300px;
+       
+}
+.box{
+    border:1px solid black;
+    box-sizing:border-box;
+    width: 40vh;
+    height: 55vh;
+    display: inline-block;
+    border-radius: 30px;
+    margin:36px 15px 20px 25px;
+    padding:55px 5px;
+}
+ 
+.box1{
+    /* display:none; */
+    /* visibility: hidden; */
+} 

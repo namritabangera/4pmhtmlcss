@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image slider demo</title>
+    <style>
+        body{
+             background: rgb(238,174,202);
+            background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);             
+         
+        }
+        h2{
+            text-align: center;
+        }
+        #slider{
+            display: grid;
+           grid-template-columns: 25px 90% 25px;
+           gap:20px;
+          
+        
+        }
+
+
+
+        /* #autoslider{
+            display: flex;
+           justify-content: center;
+        
+        } */
+      div>div> img{
+            height: 60vh;
+            width: 90vw;
+         
+        } 
+
+.arrow{
+        cursor:pointer;
+        padding-top: 150px;
+        animation: transition 0.5s ease-in-out;
+        }
+    
+        .transition {
+ 
+  animation: transition 0.5s ease-in-out;
+}
+@-webkit-keyframes transition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes transition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+    </style>
+</head>
+<body>
+    <h2>Image slider</h2>
+  <div >
+    <img src="./images/arrow-left-3099.png" class="arrow" id="btn" onclick="prev()" width="30px" alt="">
+    
+    <div id="main"> </div> 
+    
+    <img src="./images/arrow-right-3098.png"  class="arrow" id="btn2" onclick="next()" width="30px" alt="">
+</div>
+
+
+<h2>Auto slider</h2>
+<div>
+ 
+  <div id="autos"> </div> 
+  
+ 
+</div>
+<!-- <button id="btn"> clcik</button> -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+
+/* quick reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.projimg{
+    width: 350px;
+    height: 250px;
+    border-radius: 25px;
+}
+
+/* relevant styles */
+.proj {
+  position: relative;
+  height: 250px;
+  width: 350px;
+  border-radius: 25px;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  padding:60px;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.proj:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+  border-radius: 25px;
+  transform: scale(0.5);
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="col proj">
+                             
+        <img class="projimg" src="./images/proj1_adopt.png" alt="">
+        <p class="img__description">This image looks super neat.</p>
+    </div>
+    <!-- <div class="img__wrap">
+        <img class="img__img" src="./images/proj2_kalam.png" />
+        <p class="img__description">This image looks super neat.</p>
+      </div>    -->
+</body>
+</html>

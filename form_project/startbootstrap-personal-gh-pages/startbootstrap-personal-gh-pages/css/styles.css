@@ -106,6 +106,11 @@ body {
 
 #logo{
 width:70px;
+
+}
+
+#logo:hover{
+  filter: grayscale();
 }
 
 hr {
@@ -11566,7 +11571,13 @@ html {
 .bg-gradient-primary-to-secondary {
   background: #1e30f3;
   background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  transition: all 3s ease-in;
 }
+.bg-gradient-primary-to-secondary:hover {
+  background: var(--bs-indigo);
+  background: linear-gradient(55deg, var(--bs-indigo) 0%, #e21e80 100%);
+}
+
 
 .text-gradient {
   background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
@@ -11595,6 +11606,7 @@ html {
   margin-top: 5vw;
   max-height: 40rem;
   max-width: 40rem;
+  background-color: var(--bs-gradient)
 }
 .profile .profile-img {
   height: 80vw;
@@ -11603,8 +11615,15 @@ html {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  /* background: #1e30f3;
+  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%); */
+  transition: all 2s;
+
   /* mix-blend-mode: multiply; */
 }
+/* .profile-img:hover{
+  background:linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+} */
 .profile .dots-1 {
   position: absolute;
   width: 3vw;
@@ -11700,8 +11719,12 @@ html {
     width: 40vw;
   }
   .profile .profile-img {
-    height: 45vw;
+    height: 35vw;
   }
+  .profile-img:hover{
+
+  }
+
   .profile .dots-1 {
     width: 1.5vw;
     right: 0.75vw;
@@ -11744,3 +11767,41 @@ html {
     left: -2vw;
   }
 }
+
+
+.progress-title{
+    font-size: 16px;
+    font-weight: 700;
+    color:var(--bs-purple);
+    margin: 0 0 10px;
+}
+.progress-outer{
+    background: #fff;
+    padding: 5px 60px 5px 5px;
+    border: 5px solid #bebfbf;
+    border-radius: 35px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.progress{
+    background: #bebfbfva;
+    border-radius: 20px;
+    margin: 0;
+}
+.progress .progress-bar{
+    border-radius: 20px;
+    box-shadow: none;
+    animation: animate-positive 2s;
+}
+.progress .progress-value{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--bs-purple);
+    position: absolute;
+    top: 3px;
+    right: 10px;
+}
+@keyframes animate-positive{
+    0%{ width: 0; }
+}
+	
